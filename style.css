@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header-section */
+
+header{
+   
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 4rem;
+    background: white;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    z-index: 3;
+}
+
+.logo{
+    display: flex;
+    gap: 0.5rem;
+   align-items: flex-end;
+}
+
+.logo-h1{
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.list-item{
+    display: flex;
+}
+
+ul .list-item li{
+    list-style: none;
+}
+ul .list-item li a{
+    font-size: 0.9rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.buttons{
+display: flex;
+gap: 2rem;
+}
+
+.login-btn{
+text-decoration: none;
+padding: 0.3rem 1rem;
+background: #FF9B21;
+font-size: 0.7rem;
+color: white;
+border-radius: 0.3rem;
+display: flex;
+align-items: center;
+}
+
+.signin-btn{
+text-decoration: none;
+text-decoration: none;
+padding: 0.3rem 1rem;
+color: black;
+border: 1px solid black;
+font-size: 0.7rem;
+font-weight: 500;
+border-radius: 0.3rem;
+}
+
+/* home-content */
+
+.Main-home{
+display: flex;
+}
+
+.home-content{
+display: flex;
+gap: 1.8rem;
+flex-direction: column;
+justify-content: center;
+padding: 0 5rem;
+
+}
+
+.home-h1{
+    font-weight: 600;
+font-size: 3.5rem;
+}
+
+.small-text{
+    font-size: 3.5rem;
+    color: #FF9B21;
+}
+
+.home-h5{
+font-weight: 600;
+}
+
+.home-btn{
+    margin-top: 2rem;
+text-decoration: none;
+color: white;
+font-weight: 500;
+padding: 0.8rem 2rem;
+width: 10rem;
+background: #FF9B21;
+border-radius: 0.8rem;
+display: flex;
+justify-content: center;
+}
+
+.Car-img{
+z-index: -1;
+}
+
+/* section- */
+
+section{
+   background: #FFFFFF;
+}
+
+.container{
+
+}
+
+.head-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.bell-icon{
+
+}
+
+.head-h1{
+font-size: 2.8rem;
+}
+
+.head-h5{
+    margin-top: 1.5rem;
+text-align: center;
+font-weight: 500;
+}
+
+
+.card-head{
+    padding: 3rem 0;
+}
+
+.card-section{
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin: 2rem;
+}
+
+.card-main{
+display: flex;
+align-items: center;
+gap: 1.2rem;
+height: 8rem;
+width: 26rem;
+
+}
+
+.card-img{
+width: 4.8rem;
+padding: 1.2rem;
+background: #039AFF;
+border-radius: 50%;
+}
+
+.card-text{
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+}
+
+.card-text .card-h2{
+font-size: 1rem;
+font-weight: 600;
+}
+
+.card-text .card-h5{
+font-size: 0.7rem;
+font-weight: 500;
+}
+
+
+/* section--2 */
+
+
+.section-2{
+    background: aqua;
+
+}
+
+.container-2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 80vh;
+}
+
+.head-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.bell-icon-2{
+
+}
+
+.head-2-h1{
+font-size: 2.8rem;
+}
+
+.section-detail{
+    margin-top: 1rem;
+padding: 0 9rem;
+display: flex;
+gap: 2rem;
+}
+
+.section-detail-h4{
+max-width: 30rem;
+font-size: 0.8rem;
+font-weight: 600;
+}
+
